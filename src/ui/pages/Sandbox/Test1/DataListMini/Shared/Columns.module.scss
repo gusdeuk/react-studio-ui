@@ -1,0 +1,35 @@
+/* ------------------------------------------------------- */
+/* columns data to SYNC cells / cols in ROWS / HEADER */
+/* ------------------------------------------------------- */
+
+.data-cell {
+    flex: 1 1 0;
+    padding-left: 10px;
+    position: relative;
+}
+
+.data-col-0 {
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.data-col-1 {
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.data-col-2 {
+    min-width: 150px;
+    max-width: 150px;
+}
+.data-col-3 {
+    min-width: 150px;
+    max-width: 150px;
+}
+.data-col-4 {
+    min-width: 100px;
+}
+
+
+
+

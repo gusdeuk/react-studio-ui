@@ -1,0 +1,104 @@
+.MuiInput-underline:before {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+.mui-input-custom {
+    &.search-mode {
+        &.MuiInput-underline:before {
+            border-bottom: 0 !important;
+        }
+
+        &.MuiInputBase-root .MuiInputBase-input::placeholder {
+            font-style: normal !important;
+        }
+    }
+
+
+    &.MuiInputBase-root {
+
+        .MuiInputBase-input {
+            font-size: 13px;
+
+            &::placeholder {
+                color: #9E9E9E !important;
+                font-style: italic !important;
+                font-weight: 300 !important;
+                font-size: 12px !important;
+                opacity: 1 !important;
+
+            }
+        }
+
+        &.MuiOutlinedInput-root {
+            min-height: 33px;
+
+            .MuiOutlinedInput-input {
+                padding: 8px 10px;
+            }
+        }
+
+        &.MuiOutlinedInput-root:hover {
+            .MuiOutlinedInput-notchedOutline {
+                border-color: rgba(0, 0, 0, 0.23);
+            }
+        }
+
+        .MuiOutlinedInput-notchedOutline {
+            border-color: rgba(0, 0, 0, 0.23);
+        }
+
+        &.MuiOutlinedInput-root.Mui-error {
+            .MuiOutlinedInput-notchedOutline {
+                border-color: #ff605d !important;
+            }
+        }
+
+        &.MuiOutlinedInput-root.Mui-error.warning-style {
+            .MuiOutlinedInput-notchedOutline {
+                border-color: #FFAB4E !important;
+            }
+        }
+
+        &.MuiOutlinedInput-root.Mui-focused {
+            .MuiOutlinedInput-notchedOutline {
+                border-color: rgba(0, 0, 0, 0.23);
+                // box-shadow: 0 0 0 0.2rem rgba(44,62,80,.1)
+            }
+        }
+
+        /*&.MuiFocused {
+            .MuiOutlinedInput-notchedOutline {
+                border-color: rgba(0, 0, 0, 0.23) !important;
+                // box-shadow: 0 0 0 0.2rem rgba(44,62,80,.1)
+            }
+        }*/
+
+        // patch to force null focusing style for read only field
+        &.Mui-focused.no-focus {
+            .MuiOutlinedInput-notchedOutline {
+                border-width: 1px!important;
+            }
+        }
+
+        &.MuiOutlinedInput-multiline {
+            min-height: 100px !important;
+            padding: 0 !important;
+
+            &.MuiOutlinedInput-input {
+                padding: 8px 10px !important;
+            }
+        }
+
+        &.MuiInput-underline:hover:not(.Mui-disabled):before {
+            border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+        }
+
+    }
+
+}
+
+// disable search type webkit "X"
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+

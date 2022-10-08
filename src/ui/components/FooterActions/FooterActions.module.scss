@@ -1,0 +1,36 @@
+/* ------------------------------------------------------- */
+/* Base scoped style module */
+/* ------------------------------------------------------- */
+.modal-flex-actions {
+    background-color: transparent;
+
+        display: flex;
+        padding: 15px;
+        background-color: white;
+
+        &.full-screen-style {
+            background-color: #e6e8ec;
+            box-shadow: 0 0 7px 1px #33333330;
+        }
+
+        .left {
+            display: flex;
+            justify-content: flex-start;
+            width: 50%;
+            div, button {
+                margin-right: 10px;
+            }
+        }
+
+        .right {
+            display: flex;
+            justify-content: flex-end;
+            width: 50%;
+            div, button {
+               margin-left: 10px;
+            }
+        }
+
+
+}
+

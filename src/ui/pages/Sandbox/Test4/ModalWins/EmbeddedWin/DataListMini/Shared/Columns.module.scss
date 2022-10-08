@@ -1,0 +1,42 @@
+/* ------------------------------------------------------- */
+/* columns data to SYNC cells / cols in ROWS / HEADER */
+/* ------------------------------------------------------- */
+
+.data-cell {
+    padding: 0 9px;
+}
+
+.data-col-0 {
+    min-width:  calc(100% - 370px);
+    max-width:  calc(100% - 370px);
+}
+
+.data-col-1 {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.data-col-2 {
+    min-width: 250px;
+    max-width: 250px;
+}
+
+// small hacks/ overrides just for last column custom tuning
+.data-col-1 {
+    &[class^='HeadMini-module__head-data-cell'] {
+        border-right: solid 3px #FFF!important;
+    }
+    &[class^='RowMini-module__row-data-cell'] {
+        border-right: solid 1px #d6d6d6 !important;
+    }
+}
+
+.data-col-2 {
+    &[class^='HeadMini-module__head-data-cell'] {
+        border-left: solid 2px #FFF!important;
+    }
+}
+
+
+
+

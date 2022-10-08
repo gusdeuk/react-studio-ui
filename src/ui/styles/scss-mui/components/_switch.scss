@@ -1,0 +1,129 @@
+/* ------------------------------------------------ */
+/* mui-switch CUSTOM > multicolor */
+
+.mui-switch-group-custom {
+    display: flex;
+    align-items: center;
+}
+
+.mui-switch-custom {
+    margin-right: 10px;
+
+    .MuiFormControlLabel-root {
+        margin-bottom: 0;
+        margin-right: 0;
+
+    }
+
+    .MuiTypography-root {
+        white-space: nowrap;
+        &.MuiFormControlLabel-label {
+            font-size: 11px;
+        }
+    }
+
+    .MuiSwitch-root {
+        height: 43px;
+        width: 55px;
+        padding: 12px 9px;
+        right: -5px;
+
+        .MuiSwitch-track {
+            color: #fff;
+            border: solid 1px #ccc;
+            background-color: #f4f4f4 !important;
+            opacity: 1 !important;
+            border-radius: 20px;
+            left: -2px;
+            position: relative;
+        }
+
+        .MuiSwitch-thumb {
+            width: 15px;
+            height: 15px;
+            position: relative;
+            box-shadow: none;
+        }
+
+        .MuiSwitch-switchBase {
+            color: #bbbbbb;
+            top: 5px;
+            left: 0px;
+            transform: translateX(0);
+
+            // cyan is the default color
+            &.Mui-checked {
+                transform: translateX(18px);
+                color: $color-cyan;
+            }
+            &.Mui-disabled {
+                opacity: 0.5;
+            }
+        }
+
+        &.switch-red {
+            .MuiSwitch-switchBase {
+                &.Mui-checked {
+                    color: $color-red;
+                }
+            }
+        }
+
+        &.switch-green {
+            .MuiSwitch-switchBase {
+                &.Mui-checked {
+                    color: $color-green;
+                }
+            }
+        }
+
+        &.switch-cyan {
+            .MuiSwitch-switchBase {
+                &.Mui-checked {
+                    color: $color-cyan;
+                }
+            }
+        }
+
+        &.switch-purple {
+            .MuiSwitch-switchBase {
+                &.Mui-checked {
+                    color: $color-purple;
+                }
+            }
+        }
+
+        &.switch-light-cyan {
+            .MuiSwitch-switchBase {
+                &.Mui-checked {
+                    color: $color-light-cyan;
+                }
+            }
+        }
+
+        &.switch-light-purple {
+            .MuiSwitch-switchBase {
+                &.Mui-checked {
+                    color: $color-light-purple;
+                }
+            }
+        }
+        &.switch-light-orange {
+            .MuiSwitch-switchBase {
+                &.Mui-checked {
+                    color: $color-light-orange;
+                }
+            }
+        }
+
+        &.switch-light-pink {
+            .MuiSwitch-switchBase {
+                &.Mui-checked {
+                    color: $color-light-pink;
+                }
+            }
+        }
+
+    }
+
+}

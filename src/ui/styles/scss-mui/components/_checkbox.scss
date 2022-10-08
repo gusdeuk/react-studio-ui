@@ -1,0 +1,31 @@
+/* ------------------------------------------------ */
+/* mui-button CUSTOM > multicolor */
+
+.MuiCheckbox-root {
+    transform: scale(0.85);
+    padding: 4px!important;
+    margin-left: 0;
+}
+
+.mui-check-custom {
+
+    .MuiFormControlLabel-root {
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0!important;
+    }
+
+    .MuiTypography-root {
+        white-space: nowrap;
+        &.MuiFormControlLabel-label {
+            font-size: 11px;
+        }
+    }
+
+    &.white-color {
+        &.MuiIconButton-root {
+            color: #fff;
+        }
+    }
+
+}

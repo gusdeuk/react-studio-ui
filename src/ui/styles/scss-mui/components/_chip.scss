@@ -1,0 +1,94 @@
+/* ------------------------------------------------ */
+/* mui-chip CUSTOM */
+.MuiChip-chip-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    .MuiChip-root {
+        margin:2px 2px 2px 2px;
+    }
+}
+
+.MuiChip-root {
+    height: 25px !important;
+    &.MuiChip-sizeSmall {
+        height: 20px !important;
+    }
+
+    .MuiChip-label {
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .MuiChip-labelSmall {
+        font-size: 11px;
+        font-weight: 300;
+    }
+
+    .Mui-disabled {
+    }
+    .MuiChip-clickable {
+    }
+    .MuiChip-deletable {
+    }
+
+    // colors
+    &.chip-red {
+        border: none;
+        background-color: $color-red;
+        color: #fff;
+        .MuiChip-deleteIcon {
+            color: #fff;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+
+    &.chip-green {
+        background-color: $color-green;
+        color: #fff;
+        .MuiChip-deleteIcon {
+            color: #fff;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+
+    &.chip-cyan {
+        background-color: $color-cyan;
+        color: #fff;
+        .MuiChip-deleteIcon {
+            color: #fff;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+
+    &.chip-purple {
+        background-color: $color-purple;
+        color: #fff;
+        .MuiChip-deleteIcon {
+            color: #fff;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+
+    &.chip-light-cyan {
+        background-color: $color-light-cyan;
+    }
+
+    &.chip-light-purple {
+        background-color: $color-light-purple;
+    }
+    &.chip-light-orange {
+        background-color: $color-light-orange;
+    }
+
+    &.chip-light-pink {
+        background-color: $color-light-pink;
+    }
+}

@@ -1,0 +1,27 @@
+/* ------------------------------------------------------- */
+/* Base scoped style module */
+/* ------------------------------------------------------- */
+.access-data-list-component {
+
+    .head-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 36px;
+    }
+
+    .body-wrapper {
+        position: absolute;
+        top: 36px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+        overflow-y: overlay;
+    }
+
+}

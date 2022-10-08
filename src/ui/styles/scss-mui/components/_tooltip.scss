@@ -1,0 +1,42 @@
+/* mui-tooltips */
+.MuiTooltip-tooltip {
+    background-color: rgba(60, 60, 60, 0.9) !important;
+    font-size: 10px!important;
+    font-weight: 300!important;
+    text-align: center!important;
+    max-width: 100%!important;
+
+    .MuiTooltip-arrow {
+        color: rgba(60, 60, 60, 0.9) !important;
+    }
+}
+
+.mui-tooltip-custom {
+    // this small helper class applies to the tooltip wrapper, not the tooltip itself
+    /*cursor: pointer;*/
+}
+
+// injected-custom-classes for overriding tooltip body
+.mui-tooltip-custom-body-cyan {
+    background-color: #4EB3FF!important;
+    .MuiTooltip-arrow {
+        color: #4EB3FF!important;
+    }
+}
+.mui-tooltip-custom-body-green {
+    background-color: #6ac259!important;
+    .MuiTooltip-arrow {
+        color: #6ac259!important;
+    }
+}
+.mui-tooltip-custom-body-red {
+    background-color: #E86E6E!important;
+    .MuiTooltip-arrow {
+        color: #E86E6E!important;
+    }
+}
+
+
+
+
+

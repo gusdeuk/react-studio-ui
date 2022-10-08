@@ -1,0 +1,43 @@
+.mat-ui {
+}
+
+body {
+}
+
+$color-green: #6AC259;
+$color-red: #E86E6E;
+$color-purple: #7F63E4;
+$color-cyan: #4EB3FF;
+
+// pastels for light backgrounds, etc
+$color-light-cyan: #B1DFFF;
+$color-light-purple: #BDC3FF;
+$color-light-orange: #FFC991;
+$color-light-pink: #EFBDFB;
+
+
+/* ------------------------------------------------ */
+/* MUI COMPONENTS OVERRIDES */
+/* ------------------------------------------------ */
+
+@import "components/button";
+@import "components/switch";
+@import "components/radios";
+@import "components/tooltip";
+@import "components/checkbox";
+@import "components/form-control-various";
+@import "components/input";
+@import "components/react-select";
+@import "components/search-autocomplete";
+@import "components/tabs";
+@import "components/icon";
+@import "components/slider";
+@import "components/carousel";
+@import "components/grid";
+@import "components/date-time";
+@import "components/breadcrumbs";
+@import "components/menus";
+@import "components/badge";
+@import "components/alert";
+@import "components/helpers";
+@import "components/chip";

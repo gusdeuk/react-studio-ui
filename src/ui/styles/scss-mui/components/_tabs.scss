@@ -1,0 +1,24 @@
+/* ------------------------------------------------ */
+/* mui-tabs CUSTOM > multicolor */
+
+
+.mui-tabs-custom {
+    background-color: transparent;
+
+    .MuiTabs-root {
+        min-height: 40px;
+        .MuiTabScrollButton-root.Mui-disabled {
+            opacity: 0.4;
+        }
+    }
+
+    .MuiTab-root {
+        min-width: auto;
+        max-width: unset;
+        padding: 8px 25px;
+        font-size: 14px;
+        min-height: 40px;
+        text-transform: none;
+    }
+
+}

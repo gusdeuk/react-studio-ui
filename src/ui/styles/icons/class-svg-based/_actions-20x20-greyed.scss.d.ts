@@ -1,0 +1,32 @@
+declare const styles: {
+  readonly "icoActionsBaseline": string;
+  readonly "icoActionsCheck": string;
+  readonly "icoActionsBranch": string;
+  readonly "icoActionsDeploy": string;
+  readonly "icoActionsDots": string;
+  readonly "icoActionsGenPublish": string;
+  readonly "icoActionsPromote": string;
+  readonly "icoActionsStar": string;
+  readonly "icoActionsExport": string;
+  readonly "icoActionsScreen": string;
+  readonly "icoActionsProcesses": string;
+  readonly "icoActionsSettings": string;
+  readonly "icoActionsTransactions": string;
+  readonly "icoActionsVersions": string;
+  readonly "icoActionsDelete": string;
+  readonly "icoActionsDesign": string;
+  readonly "icoActionsDuplicate": string;
+  readonly "disabled": string;
+  readonly "icoActionsEdit": string;
+  readonly "icoActionsEditPlus": string;
+  readonly "icoActionsDownload": string;
+  readonly "icoActionsAddPlus": string;
+  readonly "icoActionsLink": string;
+  readonly "icoActionsComposite": string;
+  readonly "icoActionsSettingsModal": string;
+  readonly "icoActionsLibrary": string;
+  readonly "icoActionsLibraryBulleted": string;
+  readonly "icoActionsParameters": string;
+};
+export = styles;
+

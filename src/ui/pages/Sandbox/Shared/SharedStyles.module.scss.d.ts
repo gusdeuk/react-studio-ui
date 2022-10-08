@@ -1,0 +1,32 @@
+declare const styles: {
+  readonly "main-wrapper": string;
+  readonly "open-drawer": string;
+  readonly "close-drawer": string;
+  readonly "drawer-title": string;
+  readonly "base-ui-sandbox": string;
+  readonly "main-screen": string;
+  readonly "link-url": string;
+  readonly "main-header": string;
+  readonly "text-label-top": string;
+  readonly "subtitle": string;
+  readonly "pipe-sep-cyan": string;
+  readonly "margin-bot-sep": string;
+  readonly "content-row": string;
+  readonly "content-col-1": string;
+  readonly "content-col-2": string;
+  readonly "content-col-3": string;
+  readonly "green": string;
+  readonly "red": string;
+  readonly "blue": string;
+  readonly "yellow": string;
+  readonly "grey": string;
+  readonly "white": string;
+  readonly "highlight-red": string;
+  readonly "highlight-blue": string;
+  readonly "highlight-green": string;
+  readonly "tag-highlight-red": string;
+  readonly "tag-highlight-blue": string;
+  readonly "tag-highlight-green": string;
+};
+export = styles;
+

@@ -1,0 +1,27 @@
+/* ------------------------------------------------ */
+/* mui-switch CUSTOM > multicolor */
+
+.mui-radios-group-custom {
+    display: flex;
+    align-items: center;
+}
+
+.mui-radios-custom {
+    margin-right: 10px;
+
+    .MuiFormControlLabel-root {
+
+    }
+
+    .MuiTypography-root {
+        white-space: nowrap;
+        &.MuiFormControlLabel-label {
+            font-size: 11px;
+        }
+    }
+
+    .MuiSwitch-root {
+
+    }
+
+}

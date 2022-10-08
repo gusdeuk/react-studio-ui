@@ -1,0 +1,88 @@
+/* ------------------------------------------------------- */
+/* Modal Base scoped style module */
+/* ------------------------------------------------------- */
+.modal-base-component {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+
+    .modal-wrapper {
+        // restore pointer events
+        pointer-events: all;
+        background-color: #fff;
+        position: relative;
+        border-radius: 4px;
+        overflow: hidden;
+
+        .modal-header {
+            position: absolute;
+            height: 42px;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: white;
+            border-bottom: 1px solid #dee2e6;
+            display: flex;
+            align-items: center;
+
+            .header-content {
+                padding-left: 15px;
+                padding-right: 15px;
+                display: flex;
+                align-items: center;
+
+                .title {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #525252;
+                }
+                .icon {
+                    margin-right: 5px;
+                }
+            }
+
+            .close {
+                position: absolute;
+                right: 0;
+                top: 0;
+                height: 41px;
+                width: 41px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                &:hover {
+                    background-color: #f7f7f7;
+                }
+                .icon {
+                    font-size: 18px;
+                    color: #b5b5b5;
+                }
+            }
+        }
+
+        .modal-body {
+            padding: 15px;
+            font-size: 12px;
+            background-color: transparent;
+            transition: all 0.5s ease-in-out!important;
+        }
+        .modal-footer-actions {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+
+        }
+    }
+
+}
+

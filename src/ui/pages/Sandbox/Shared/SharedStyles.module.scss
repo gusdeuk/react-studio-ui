@@ -1,0 +1,234 @@
+/* ------------------------------------------------------- */
+/* Navigation part for main UI */
+/* ------------------------------------------------------- */
+.main-wrapper {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.open-drawer {
+    position: absolute;
+    top: 42px;
+    right: 3px;
+    cursor: pointer;
+    z-index: 100;
+    color: #2eace0;
+
+    svg {
+        cursor: pointer;
+    }
+}
+
+.close-drawer {
+    position: absolute;
+    top: 38px;
+    left: 0px;
+    cursor: pointer;
+    z-index: 100;
+
+    svg {
+        cursor: pointer;
+    }
+}
+
+.drawer-title {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 25px;
+    padding-bottom: 16px;
+    margin-bottom: 21px;
+    padding-left: 30px;
+    color: #b9b9b9;
+    border-bottom: solid 1px #e8e9e8;
+}
+
+/* ------------------------------------------------------- */
+/* common wrapper shared classes for content elements*/
+/* ------------------------------------------------------- */
+.base-ui-sandbox {
+    &.main-screen {
+        padding: 45px 35px 30px 35px;
+        height: 100vh;
+    }
+
+    .link-url {
+        text-decoration: underline;
+        font-style: italic;
+        color: #0042b5;
+
+        &:hover {
+        }
+    }
+
+    .main-header {
+        position: relative;
+
+        .text-label-top {
+            position: absolute;
+            top: 6px;
+            right: 0;
+            font-size: 9px;
+            color: #b9b9b9;
+            font-weight: 400;
+            text-align: right;
+            line-height: 1.5;
+            text-transform: uppercase;
+        }
+    }
+
+    h1 {
+        font-size: 27px;
+        font-weight: 200;
+        padding-bottom: 10px;
+        margin-bottom: 5px;
+        color: #b9b9b9;
+        border-bottom: solid 1px #e8e9e8;
+    }
+
+    h6 {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: #585858;
+        padding: 18px 15px;
+        background-color: #f1f0f0;
+        border-radius: 3px;
+        border-left: 16px solid #d2d2d2;
+    }
+
+    .subtitle {
+        font-size: 11px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: #00cbff;
+        background-color: #dbf6ff;
+        padding: 3px 15px;
+        border-radius: 3px;
+    }
+
+    .pipe-sep-cyan {
+        color: #0e9aef;
+        padding: 0 15px;
+        display: inline-block;
+    }
+
+    i {
+        color: #0042b5;
+        margin-bottom: 10px;
+        display: block;
+
+        a {
+            text-decoration: underline;
+            font-style: italic;
+            color: #0042b5;
+
+            &:hover {
+            }
+        }
+    }
+
+    .margin-bot-sep {
+        margin-bottom: 10px;
+        border-bottom: dashed 1px #e0e0e0;
+        padding-bottom: 10px;
+    }
+
+    .content-row {
+        display: flex;
+
+        .content-col-1 {
+            width: 100%;
+        }
+
+        .content-col-2 {
+            width: 50%;
+            margin-right: 20px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        .content-col-3 {
+            width: 33.33%;
+            margin-right: 20px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    &.green {
+        background-color: #b9f4ad;
+    }
+
+    &.red {
+        background-color: #ff9dac;
+    }
+
+    &.blue {
+        background-color: #d4eef9;
+    }
+
+    &.yellow {
+        background-color: #f4e699;
+    }
+
+    &.grey {
+        background-color: #eeeeee;
+    }
+
+    &.white {
+        background-color: #fff;
+    }
+
+    .highlight-red {
+        color: #d45046;
+    }
+
+    .highlight-blue {
+        color: #2eace0;
+    }
+
+    .highlight-green {
+        color: #6ac259;
+    }
+
+    .tag-highlight-red {
+        background-color: #d45046;
+        color: #fff;
+        padding: 3px 10px;
+        border-radius: 15px;
+        font-size: 12px;
+        position: relative;
+        top: -1px;
+        margin: 0 10px;
+    }
+
+    .tag-highlight-blue {
+        background-color: #2eace0;
+        color: #fff;
+        padding: 3px 10px;
+        border-radius: 15px;
+        font-size: 12px;
+        position: relative;
+        top: -1px;
+        margin: 0 10px;
+    }
+
+    .tag-highlight-green {
+        background-color: #6ac259;
+        color: #fff;
+        padding: 3px 10px;
+        border-radius: 15px;
+        font-size: 12px;
+        position: relative;
+        top: -1px;
+        margin: 0 10px;
+    }
+}

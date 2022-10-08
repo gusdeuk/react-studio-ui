@@ -1,0 +1,74 @@
+.mui-form-custom {
+
+    // ---------------------------------------------
+    // label 1
+    .MuiFormControlLabel-root {
+        &.MuiFormControlLabel-labelPlacementTop {
+            margin-left: 0;
+        }
+
+        .MuiFormControlLabel-label {
+            font-size: 13px !important;
+            font-weight: 400 !important;
+
+            color: #555 !important;
+        }
+
+    }
+
+    // ---------------------------------------------
+    // label 2
+    .MuiFormLabel-root {
+        font-size: 13px !important;
+        font-weight: 400 !important;
+        color: #555!important;
+
+        &.Mui-error {
+            color: #ff605d!important;
+        }
+        &.Mui-error {
+            &.warning-style {
+                color: #FFAB4E !important;
+            }
+        }
+
+        &.no-margin {
+            margin: 0 !important;
+        }
+
+        &.MuiInputLabel-shrink {
+            transform: translate(0, -8px) scale(1) !important;
+        }
+
+    }
+
+    label + .MuiInput-formControl {
+        margin-top: 6px !important;
+    }
+
+    // ---------------------------------------------
+    // bottom helper text
+    .MuiFormHelperText-root {
+        font-size: 11px;
+        color: #555!important;
+
+        &.MuiFormHelperText-filled {
+            color: #555!important;
+        }
+
+        &.Mui-error {
+            color: #ff605d!important;
+        }
+        &.Mui-error {
+            &.warning-style {
+                    color: #FFAB4E !important;
+                }
+        }
+
+        &.Mui-success {
+            color: #6ac259!important;
+        }
+    }
+
+
+}

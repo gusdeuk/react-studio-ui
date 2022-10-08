@@ -1,0 +1,78 @@
+/* ------------------------------------------------------- */
+/* columns data to SYNC cells / cols in ROWS / HEADER */
+/* ------------------------------------------------------- */
+
+.data-cell {
+    flex: 1 1 0;
+    padding-left: 10px;
+    position: relative;
+}
+
+.data-col-0 {
+    min-width: 35px;
+    max-width: 35px;
+}
+
+.data-col-1 {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+// collapse stuff columns style with semi trans overlay
+.data-col-2,
+.data-col-10 {
+    min-width: 20px;
+    max-width: 20px;
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+
+    &[class*="head-data-cell"] {
+        background-color: #329FF2;
+        cursor: pointer;
+        &:hover {
+            background-color: #308ad7 !important;
+        }
+    }
+    &[class*="row-data-cell"] {
+        background-color: #0000000f;
+        height: calc(100% + 8px);
+        align-self: baseline;
+    }
+}
+.data-col-3 {
+    min-width: 80px;
+    max-width: 170px;
+}
+.data-col-4 {
+    min-width: 70px;
+    max-width: 70px;
+}
+.data-col-5 {
+    min-width: 200px;
+}
+
+.data-col-6 {
+    min-width: 70px;
+    max-width: 120px;
+}
+.data-col-7 {
+    min-width: 70px;
+    max-width: 120px;
+}
+.data-col-8 {
+    min-width: 200px;
+    max-width: 200px;
+}
+.data-col-9 {
+    min-width: 200px;
+}
+
+.data-col-11 {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+
+
+

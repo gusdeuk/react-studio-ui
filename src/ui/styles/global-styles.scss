@@ -1,0 +1,39 @@
+/* ------------------------------------------------ */
+/* GLOBAL cascade css stuff starts here */
+/* ------------------------------------------------ */
+
+/* ------------------------------------------------ */
+/* GLOBALS */
+@import "./vendor/animate-css/animate";
+@import "./scss-global/common/variables";
+@import "./scss-global/common/mixins";
+@import "./scss-global/flattenizer";
+
+/* ------------------------------------------------ */
+/* CUSTOM ICON LIB [LEGACY > USE REACT INSTEAD]*/
+@import "./icons/class-svg-based/actions-20x20-greyed";
+@import "./icons/class-svg-based/actions-balls-37x37-blue";
+@import "./icons/class-svg-based/device-types-26x26-greyed";
+@import "./icons/class-svg-based/data-types-for-form-elements-32x32-color";
+@import "./icons/class-svg-based/various";
+@import "./icons/class-svg-based/message-color-icons-50x50";
+
+/* ------------------------------------------------ */
+/* BASE UI-ELEMENTS / UI-LAYOUT */
+@import "./scss-global/elements/scrollbars-custom";
+@import "./scss-global/elements/helpers";
+
+/* ------------------------------------------------ */
+/* HTML CSS BASE */
+@import "./scss-global/html-body-base";
+
+/* ------------------------------------------------ */
+/* MUI library overrides */
+@import "./scss-mui/material-ui-overrides";
+
+/* ------------------------------------------------ */
+/* WEB FONTS */
+@import "./fonts/poppins/_stylesheet.css";
+/*
+@import "./fonts/roboto/_stylesheet.css";
+*/

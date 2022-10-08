@@ -1,0 +1,33 @@
+/* ------------------------------------------------------- */
+/* Base scoped style module */
+/* ------------------------------------------------------- */
+.test-component {
+    background-color: transparent;
+    .test-1:hover {
+        background-color: cyan;
+    }
+    .test-2 {
+        &.sibling-class {
+            background-color: cyan;
+        }
+    }
+    .test-3 {
+        > .direct-child {
+            background-color: cyan;
+        }
+    }
+
+    .test-4[data-test="my-value"] {
+        background-color: cyan;
+    }
+    .test-5 {
+        & > div:nth-child(1) {
+            background-color: cyan;
+        }
+    }
+    .test-6 {
+        & > div:first-child {
+            background-color: cyan;
+        }
+    }
+}

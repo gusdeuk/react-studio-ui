@@ -1,0 +1,30 @@
+/* ------------------------------------------------------- */
+/* Base scoped style module */
+/* ------------------------------------------------------- */
+.access-data-list-component {
+    height: calc(100% - 100px);
+    width: 100%;
+
+    .head-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 26px;
+    }
+
+    .body-wrapper {
+        position: absolute;
+        top: 26px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        // set scroll as overlay, little hack
+        overflow-y: auto;
+        overflow-y: overlay;
+    }
+
+}

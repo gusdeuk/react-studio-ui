@@ -1,0 +1,30 @@
+/* ------------------------------------------------------- */
+/* Base scoped style module */
+/* ------------------------------------------------------- */
+.data-list-component {
+    height: 100%;
+
+    .head-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 30px;
+    }
+
+    .body-wrapper {
+        position: absolute;
+        top: 30px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        padding-top: 5px;
+        padding-bottom: 15px;
+        overflow-y: auto;
+        overflow-y: overlay;
+    }
+
+}

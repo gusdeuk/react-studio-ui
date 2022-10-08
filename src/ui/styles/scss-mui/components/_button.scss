@@ -1,0 +1,109 @@
+/* ------------------------------------------------ */
+/* mui-button CUSTOM > multicolor */
+
+.MuiButton-root {
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    padding: 6px 12px !important;
+
+    line-height: 1.5 !important;
+    border-radius: 8px !important;
+    text-transform: none !important;
+    height: fit-content !important;
+    border: solid 1px transparent !important;
+
+    &.Mui-disabled {
+        opacity: 0.5;
+    }
+
+    .MuiButton-startIcon {
+        margin-left: -8px;
+        margin-right: 4px;
+    }
+
+    .MuiButton-endIcon {
+        margin-left: 4px;
+        margin-right: -8px;
+    }
+
+    // -----------------------------------------------------------
+    // btn types >>> prim out text
+    &.MuiButton-outlined {
+        border-color: $vt-grey-light !important;
+        color: $vt-grey-main !important;
+    }
+
+    &.MuiButton-outlinedPrimary {
+        border-color: $vt-primary-main !important;
+        color: $vt-primary-main !important;
+    }
+
+    &.MuiButton-outlinedSecondary {
+        border-color: $vt-secondary-main !important;
+        color: $vt-secondary-main !important;
+    }
+
+    &.MuiButton-containedPrimary {
+        color: $vt-white !important;
+        border-color: $vt-primary-main !important;
+        background-color: $vt-primary-main !important;
+    }
+
+    &.MuiButton-containedSecondary {
+        color: $vt-white !important;
+        border-color: $vt-secondary-main !important;
+        background-color: $vt-secondary-main !important;
+    }
+
+    &.MuiButton-textPrimary {
+        color: $vt-primary-main !important;
+    }
+
+    &.MuiButton-textSecondary {
+        color: $vt-secondary-main !important;
+    }
+
+
+    // -----------------------------------------------------------
+    // btn sizes
+    &.MuiButton-sizeSmall {
+        font-weight: 400 !important;
+        font-size: 12px !important;
+        padding: 4px 10px !important;
+        border-radius: 6px !important;
+    }
+
+    &.MuiButton-sizeMedium {
+        // this is the default one
+    }
+
+    &.MuiButton-sizeLarge {
+        font-weight: 500 !important;
+        font-size: 16px !important;
+        padding: 8px 14px !important;
+    }
+
+    // -----------------------------------------------------------
+    // custom button colors as additional class name
+    &.color-purple {
+
+        &.MuiButton-contained {
+            color: #ffffff !important;
+            background-color: $vt-purple !important;
+        }
+
+        &.MuiButton-outlined {
+            color: $vt-purple !important;
+            background-color: transparent;
+            border-color: $vt-purple !important;
+        }
+
+        &.MuiButton-text {
+            color: $vt-purple !important;
+            background-color: transparent !important;
+        }
+
+    }
+
+
+}

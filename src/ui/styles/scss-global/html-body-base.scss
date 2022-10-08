@@ -1,0 +1,62 @@
+/* ------------------------------------------------------- */
+/* globals / main layout */
+/* CONTENT area global layout elements / common css */
+/* ------------------------------------------------------- */
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    line-height: 1.3!important;
+    letter-spacing: 0!important;
+    color: #545657!important;
+    font-family: "poppins", "Arial", "Helvetica", sans-serif!important;
+    font-size: 13px!important;
+    background-color: #F5F8FB!important;
+    -webkit-font-smoothing: subpixel-antialiased!important;
+}
+
+button:focus {
+    outline: none!important;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*
+.CHECK-THIS {
+    input {
+        &::placeholder {
+            color: #9E9E9E;
+            font-style: italic;
+            font-weight: 300;
+            font-size: 12px;
+        }
+    }
+    textarea {
+        &::placeholder {
+            color: #9E9E9E;
+            font-style: italic;
+            font-weight: 300;
+            font-size: 12px;
+        }
+    }
+    a {
+        color: #4EB3FF;
+        &:focus {
+            outline: none;
+        }
+    }
+    button {
+        &:focus {
+            outline: none;
+        }
+    }
+
+}*/
+
+

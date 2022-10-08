@@ -1,0 +1,98 @@
+/* ------------------------------------------------------- */
+/* Base scoped style module */
+/* ------------------------------------------------------- */
+.test-component {
+    background-color: transparent;
+
+    .test-1:hover {
+        background-color: cyan;
+    }
+
+    .test-2 {
+        &.sibling-class {
+            background-color: cyan;
+        }
+    }
+
+    .test-3 {
+        > .direct-child {
+            background-color: cyan;
+        }
+    }
+
+    .test-4[data-test="my-value"] {
+        background-color: cyan;
+    }
+
+    .test-5 {
+        & > div:nth-child(1) {
+            background-color: cyan;
+        }
+    }
+
+    .test-6 {
+        & > div:first-child {
+            background-color: cyan;
+        }
+    }
+
+    .test-7 {
+        div + p {
+            background-color: #bd2305;
+        }
+        /*element+element	div + p	Selects the first <p> element that are placed immediately after <div> elements*/
+    }
+
+    .test-8 {
+        p ~ ul {
+            background-color: #ffbe35;
+        }
+        /*element1~element2	p ~ ul	Selects every <ul> element that are preceded by a <p> element*/
+    }
+
+    .test-9 {
+        div[title~="flower"] {
+            background-color: #29fb04;
+        }
+        /*[attribute~=value]	[title~=flower]	Selects all elements with a title attribute containing the word "flower"*/
+    }
+
+    .test-10 {
+        a[href^="https"] {
+            background-color: #bff3ff;
+        }
+        /*[attribute^=value]	a[href^="https"]	Selects every <a> element whose href attribute value begins with "https"*/
+    }
+
+    .test-11 {
+        a[href$=".pdf"] {
+            background-color: #bff3ff;
+        }
+        /*[attribute$=value]	a[href$=".pdf"]	Selects every <a> element whose href attribute value ends with ".pdf"*/
+    }
+
+    .test-12 {
+        input:focus {
+            background-color: #bff3ff;
+        }
+        /*:focus	input:focus	Selects the input element which has focus*/
+    }
+    .test-13 {
+        input:invalid {
+            background-color: #ffcf1a;
+        }
+        /*:invalid	input:invalid	Selects all input elements with an invalid value*/
+    }
+    .test-14 {
+        input::placeholder {
+            color: #ff0a19;
+        }
+        /*::placeholder	input::placeholder	Selects input elements with the "placeholder" attribute specified*/
+    }
+    .test-15 {
+        * {
+            background-color: #ffcf1a;
+        }
+        /* *	Selects all elements*/
+    }
+}

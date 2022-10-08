@@ -1,0 +1,81 @@
+/* ------------------------------------------------ */
+/* menus CUSTOM */
+.mui-menus-custom {
+    background-color: transparent;
+}
+/* ------------------------------------------------ */
+// This MuiMenu-paper >> affects all pop overs, noy only menus
+.MuiMenu-paper {
+    background-color: #FFF !important;
+
+    .MuiMenu-list {
+        padding-top: 0;
+        padding-bottom: 0;
+
+
+        .MuiListItem-root {
+            font-size: 11px !important;
+            padding: 5px 8px;
+
+            .MuiListItemIcon-root {
+                min-width: 30px;
+                max-width: 30px;
+
+                svg {
+
+                }
+            }
+
+            .MuiListItemText-root {
+                margin: 0;
+                span {
+                    font-size: 11px !important;
+                }
+            }
+
+            &:hover {
+                background-color: #DEEBFF !important;
+            }
+
+            &.Mui-selected {
+                background-color: #2684FF !important;
+                color: #FFF !important;
+
+                .MuiListItemIcon-root {
+                    svg {
+                        color: #FFF !important;
+                    }
+                }
+            }
+        }
+    }
+
+    // use mini scroll for paper
+    &::-webkit-scrollbar {
+        /*width: 9px;
+        height: 9px;*/
+        width: 4px;
+        height: 4px;
+        background-color: transparent;
+        overflow: auto;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: rgba(127, 127, 127, 0.50);
+        border-radius: 20px;
+        border-style: solid;
+        border-color: transparent;
+        //border-width: 1px;
+        border-width: 0;
+        background-clip: padding-box;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: transparent;
+        border-width: 0;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background-color: rgba(127, 127, 127, 1);
+    }
+}

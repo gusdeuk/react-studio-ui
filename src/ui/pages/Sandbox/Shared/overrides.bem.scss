@@ -1,0 +1,88 @@
+/* ------------------------------------------------------------------------------------ */
+/*GLOBALIZED / BEM SCOPED CSS OVERRIDES >> NO CSS MODULES HERE*/
+/* ------------------------------------------------------------------------------------ */
+.sandbox-component {
+    .main-nav-sandbox-tabs {
+        .PrivateTabIndicator-vertical-9 {
+            left: 0;
+            width: 32px;
+            border-radius: 5px 0 0 5px;
+        }
+
+        .MuiTab-root {
+            padding: 3px 2px !important;
+            font-size: 10px !important;
+            line-height: 13px;
+            align-items: start;
+            width: 100%;
+            border-radius: 5px;
+            overflow: hidden;
+            margin: 3px 0;
+            transition: all 0.5s;
+            background-color: whitesmoke;
+
+            &.Mui-selected {
+                background-color: #dbf6ff;
+                .tab-number {
+                    color: #fff;
+                    background-color: #1a81ab;
+                }
+            }
+        }
+
+        .MuiTabs-flexContainer {
+            max-width: 250px;
+        }
+
+        .MuiTab-wrapper {
+            padding-left: 4px;
+            z-index: 500;
+            :global(.MuiSvgIcon-root) {
+            }
+        }
+
+        .tab-labels {
+            text-align: left;
+            width: 100%;
+            display: flex;
+            min-height: 50px;
+            align-items: center;
+
+            & div:nth-child(2) {
+                padding-left: 15px;
+                width: 100%;
+            }
+
+            font-size: 10px;
+
+            .highlight-strip {
+                background-color: #f57f17;
+                position: absolute;
+                right: 0;
+                top: 0px;
+                border-radius: 0 0 0 4px;
+                padding: 2px 7px 1px;
+                line-height: 10px;
+                font-size: 9px;
+                color: white;
+            }
+
+            .tab-number {
+                font-size: 11px;
+                width: 15px;
+                text-align: center;
+                color: #2eace0;
+                min-width: 20px;
+                max-width: 20px;
+                min-height: 20px;
+                max-height: 20px;
+                background-color: #ffffff;
+                line-height: 20px;
+                border-radius: 20px;
+            }
+            svg {
+                width: 30px;
+            }
+        }
+    }
+}

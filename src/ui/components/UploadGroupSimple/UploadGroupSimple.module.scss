@@ -1,0 +1,42 @@
+.upload-group-simple-component-base {
+
+    display: flex;
+
+    .left {
+        min-width: 75px;
+        max-width: 75px;
+        .mask {
+            height: 60px;
+            width: 60px;
+            background-color: #fff;
+            border-radius: 30px;
+            overflow: hidden;
+            border: 1px solid #cbcbcb;
+            position: relative;
+            top:0;
+            left:0;
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+    }
+
+    .middle {
+        flex: 1 1 auto;
+    }
+
+    .right {
+        min-width: 40px;
+        max-width: 40px;
+        svg {
+           position: relative;
+            top:25px;
+            left:10px;
+            cursor: pointer;
+        }
+
+    }
+
+}

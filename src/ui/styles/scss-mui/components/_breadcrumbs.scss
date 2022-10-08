@@ -1,0 +1,19 @@
+/* ------------------------------------------------ */
+/* breadcrumbs CUSTOM */
+
+
+.mui-breadcrumbs-custom {
+    background-color: transparent;
+
+    .MuiTypography-root {
+        font-size: 12px !important;
+    }
+
+    .MuiBreadcrumbs-root {
+        .MuiBreadcrumbs-separator {
+            margin-right: 3px;
+            margin-left: 3px;
+        }
+    }
+
+}

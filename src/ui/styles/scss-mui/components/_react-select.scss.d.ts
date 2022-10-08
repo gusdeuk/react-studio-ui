@@ -1,0 +1,32 @@
+declare const styles: {
+  readonly "customSingleReactSelect": string;
+  readonly "crsSingleControl": string;
+  readonly "crsSingleIndicators": string;
+  readonly "crsSingleIndicator": string;
+  readonly "crsSingleIndicatorSeparator": string;
+  readonly "crsSingleMenu": string;
+  readonly "crsSingleOption": string;
+  readonly "crsSingleOptionIsDisabled": string;
+  readonly "crsSingleOptionIsSelected": string;
+  readonly "hasIcons": string;
+  readonly "crsSingleSingleValue": string;
+  readonly "selectedValue": string;
+  readonly "selectedIcon": string;
+  readonly "selectedLabel": string;
+  readonly "optionItem": string;
+  readonly "optionIcon": string;
+  readonly "optionLabel": string;
+  readonly "customMultiReactSelect": string;
+  readonly "crsMultiControl": string;
+  readonly "crsMultiIndicators": string;
+  readonly "crsMultiIndicator": string;
+  readonly "crsMultiIndicatorSeparator": string;
+  readonly "crsMultiMenu": string;
+  readonly "crsMultiOption": string;
+  readonly "crsMultiValueContainer": string;
+  readonly "crsMultiMultiValue": string;
+  readonly "crsMultiMultiValueLabel": string;
+  readonly "crsMultiMultiValueRemove": string;
+};
+export = styles;
+

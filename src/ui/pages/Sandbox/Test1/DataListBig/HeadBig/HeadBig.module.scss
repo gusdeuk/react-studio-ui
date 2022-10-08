@@ -1,0 +1,17 @@
+/* ------------------------------------------------------- */
+/* Base scoped style module */
+/* ------------------------------------------------------- */
+.header-data-list-component {
+    display: flex;
+    background-color: #FFF;
+    height: 36px;
+    align-items: center;
+    font-size: 12px;
+
+    .head-data-cell {
+        font-weight: 500;
+        display: flex;
+    }
+}
+
+

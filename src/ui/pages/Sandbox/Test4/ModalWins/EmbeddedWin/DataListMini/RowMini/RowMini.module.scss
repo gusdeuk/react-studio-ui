@@ -1,0 +1,28 @@
+/* ------------------------------------------------------- */
+/* Base scoped style module */
+/* ------------------------------------------------------- */
+.row-data-list-component {
+
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    font-size: 11px;
+
+    &:nth-child(even) {
+        background-color: #F5F5F5;
+    }
+
+    .row-data-cell {
+        background-color: transparent;
+        min-height: 26px;
+        max-height: 26px;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+
+

@@ -1,0 +1,19 @@
+/* ------------------------------------------------------- */
+/* Base scoped style module */
+/* ------------------------------------------------------- */
+.head-message-component {
+    background-color: transparent;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    .icon {
+        margin: 0 20px 0 15px;
+    }
+    .text {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+}
+
+

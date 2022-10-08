@@ -1,0 +1,40 @@
+/* ------------------------------------------------------- */
+/* Base scoped style module */
+/* ------------------------------------------------------- */
+.header-data-list-component {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    font-size: 12px;
+    background-color: #4eb3ff;
+    color: #fff;
+    padding-left: 1px;
+    padding-right: 1px;
+
+
+    .head-data-cell {
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        height: 30px;
+    }
+    .head-sorters {
+        display: flex;
+        flex-direction: column;
+        padding-left: 4px;
+        .sort-control {
+            cursor: pointer;
+            margin: -1px 0;
+            &:hover {
+                background-color: rgba(148, 255, 250, 0.16);
+            }
+            &.sort-disabled {
+                opacity: 0.5;
+                cursor:default;
+                background-color: transparent;
+            }
+        }
+    }
+}
+
+

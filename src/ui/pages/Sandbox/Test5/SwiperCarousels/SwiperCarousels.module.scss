@@ -1,0 +1,93 @@
+:root {
+    --swiper-theme-color: #2eace0 !important;
+}
+
+.carousel-component {
+    background-color: transparent;
+
+    .carousel-test-1,
+    .carousel-test-2,
+    .carousel-test-3
+    {
+        width: 800px;
+
+        .slide-custom-wrapper {
+            .slide-custom-content {
+                height: 200px;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #bdbdbd;
+                font-size: 25px;
+                font-weight: 200;
+                color: rgba(0, 0, 0, 0.36);
+            }
+
+            &:nth-child(1) {
+                .slide-custom-content {
+                    background-color: #a6ff94;
+                }
+            }
+
+            &:nth-child(2) {
+                .slide-custom-content {
+                    background-color: #80f7ff;
+                }
+            }
+
+            &:nth-child(3) {
+                .slide-custom-content {
+                    background-color: #ffa98a;
+                }
+            }
+
+            &:nth-child(4) {
+                .slide-custom-content {
+                    background-color: #ffe695;
+                }
+            }
+
+            &:nth-child(5) {
+                .slide-custom-content {
+                    background-color: #ddb3ff;
+                }
+            }
+
+            &:nth-child(6) {
+                .slide-custom-content {
+                    background-color: #9dd5ff;
+                }
+            }
+
+            &:nth-child(7) {
+                .slide-custom-content {
+                    background-color: #ffb280;
+                }
+            }
+
+            &:nth-child(8) {
+                .slide-custom-content {
+                    background-color: #efa5ff;
+                }
+            }
+
+            &:nth-child(9) {
+                .slide-custom-content {
+                    background-color: #94fffa;
+                }
+            }
+
+            &:nth-child(10) {
+                .slide-custom-content {
+                    background-color: #9fffc1;
+                }
+            }
+
+
+        }
+    }
+
+
+
+}
